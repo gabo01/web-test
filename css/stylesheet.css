@@ -1,0 +1,61 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  color: #262626;
+  background-color: snow;
+}
+
+li {
+  padding: .5rem;
+}
+
+.pd-1 {
+  padding: 1rem;
+}
+
+.big-text {
+  font-size: 1.25rem;
+}
+
+.bigger-text {
+  font-size: 1.75rem;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.center-block {
+  width:50%;
+  margin: auto;
+}
+
+.line {
+  border-bottom: #262626 2px solid;
+}
+
+.horizontal-nav {
+  text-align: right;
+  padding: 2rem;
+  background-color: #262626;
+  color: snow;
+}
+
+.horizontal-nav > div {
+  display: inline-block;
+  margin: 0 1em;
+}
+
+.horizontal-nav > div > a {
+  font-size: 1.2rem;
+  text-decoration: none;
+  color: inherit;
+}
+
+.horizontal-nav > div > a:hover {
+  text-decoration: underline;
+}
